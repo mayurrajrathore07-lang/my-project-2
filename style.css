@@ -285,8 +285,8 @@ nav {
     top: 45px;
     background-color: #200606;
     min-width: 120px;
-    border-radius: 12px;git 
-    overflow: hidden;
+    border-radius: 12px;
+    overflow:hidden;
 
 }
 
@@ -437,6 +437,9 @@ word-spacing: 10px;
     margin-bottom: 10%;
 
 }
+
+
+@media screen and (min-width: 800px)
 
 
 
