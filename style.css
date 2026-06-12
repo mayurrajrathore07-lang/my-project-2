@@ -1,0 +1,445 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #E5DDD4;
+    color: #5C4033;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background-color: #E5DDD4;
+    
+}
+
+.nav-container {
+    width: 100%;
+    padding: 0 30px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20px;
+}
+
+.brand {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #5C4033;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #5C4033;
+    text-transform: capitalize;
+    
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 12px;
+    border: 1px solid #5C4033;
+    border-radius: 20px;
+    background-color: #240808;
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    min-height: 100vh;
+    padding: 140px 40px 40px;
+    gap: 40px;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero-section h1 {
+    color: #290404;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    color: #5A2222;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    line-height: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.view-menu {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 25px;
+    background-color: #5C4033;
+    color: #fff;
+    text-transform: capitalize;
+}
+.coffee-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coffee-image > img {
+    width: 320px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 6px solid #5C4033;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
+}
+
+.coffee-types {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.coffee-types > p {
+    padding: 10px 24px;
+    border-radius: 999px;
+    background-color: #5C4033;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 24px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.imggg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.imggg img {
+    width: 220px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #5C4033;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    background-color: #E5DDD4;
+}
+
+.coffee-menu>h2{
+
+    min-height: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px 20px;
+    background-color: #5C4033;
+    color: aliceblue;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    
+}
+.menu-group{
+    display: flex;
+    height: 250px;
+    padding-top: 10px;
+}
+.menu-group>h3{
+    font-size: x-large;
+    color: #290404;
+    display: flex;
+    font-weight: 900;
+    padding: bottom 2px;
+}   
+.menu-group>ul{
+    justify-content: center;
+    align-content: center;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.coffee-shop {
+    padding: 60px 20px 80px;
+    display: flex;
+    justify-content: center;
+    margin-top: -100px;
+    margin-bottom: 20px;
+}
+
+.coffee-shop-location {
+    width: 100%;
+    color: #fff;
+    padding: 30px;
+ 
+}
+
+.location-title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    background-color: #2b0e0e;
+    color: #f7efe9;
+    display: inline-block;
+    border-radius: 25px;
+    margin-bottom: 15px;
+    margin-left: 50%;
+    width: 30%;
+    padding-left: 30px;
+    margin-top: -20px;
+}
+
+
+
+.coffee-shop-location ul {
+    list-style: none;
+}
+
+.coffee-shop-location li {
+    margin-bottom: 10px;
+}
+
+.coffee-shop-location a {
+    color: #520b0b;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 900;
+    line-height: 20px;
+}
+
+.location-note {
+    margin: 15px 0 10px;
+    color: #350505;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+
+.dropdown {
+
+    position: relative;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: -15px;
+
+}
+
+.dropbtn {
+    background-color: #3d0505;
+    color: #fcf8f7;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 30px;
+    margin-right: 30px;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    top: 45px;
+    background-color: #200606;
+    min-width: 120px;
+    border-radius: 12px;git 
+    overflow: hidden;
+
+}
+
+.dropdown-content a {
+    display: block;
+    color: #5C4033;
+    padding-left: 10px;
+
+}
+
+
+
+.dropdown:hover .dropdown-content,
+.dropdown:focus-within .dropdown-content {
+    display: block;
+}
+
+.information>h4{    min-height: 5vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px 20px;
+    background-color: #381606;
+    color: aliceblue;
+    margin-bottom: 40px;
+    
+}
+.information>p{
+    line-height: 40px;
+    font-size: medium;
+    padding-top: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap:20px;
+       
+}
+
+#button{
+    display: flex;
+    gap: 100px;
+    margin-left: 80px;
+    margin-right: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+    
+}
+button{
+    display: flex;
+    border: none;
+    border-radius: 30px;
+    background-color: #331506;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    line-height: 40px;
+    width: 25%;
+    margin-bottom: 30px;
+}
+.about>h4{
+    border-radius: 25px;                     
+;    background-color: #3f2012;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 24px;
+    padding-left: 45%;
+    font-weight: 900;
+    letter-spacing: 1px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 30px
+}
+.about>p{
+    color: #611515c7;
+    justify-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    font-weight: 600;
+    align-items: center;
+    margin-left: 30px;
+    width: 40%;
+    line-height: 40px;
+word-spacing: 10px;
+
+}
+
+.footer-navbar{
+    display: flex;
+    margin-top: 40px;
+    color: rgb(71, 7, 7);
+    list-style: none;
+    column-gap: 250px;
+    padding-left: 350px;
+    line-height: 20px;
+    align-items: center;
+    justify-items: center;
+}
+.footer-column>h4{
+    list-style:none;
+    font-size: x-large;
+    margin-bottom: 10px;
+    border-radius: 40px;
+    background-color: #460a0a;
+    color: antiquewhite;
+    height: 50px;
+    width: 120px;
+    padding-top: 10px;
+    padding-left: 10px;
+
+}
+
+.footer-title{
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-links{
+    list-style: none;
+    line-height: 40px;
+    color: #290404;
+
+}
+.footer-links>li>a{
+    text-decoration: none;
+    color: #290404;
+    font-weight: 600;
+    font-size: large;
+    line-height: 30px;
+    padding-top: 10px;
+    height: 40px;
+}
+.thanks{
+    border-color: black;
+    border-radius: 20px;
+    color:rgb(49, 10, 10);
+    justify-content: center;
+    align-items: center;
+    border-style:dashed;
+    font-size: x-large;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding-left: 40%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+}
+
+
+
+
+
+
