@@ -561,6 +561,7 @@ word-spacing: 10px;
     .footer-column > h4 {
         width: auto;
         padding: 20px;
+        display: flex;
 
     }
 }
